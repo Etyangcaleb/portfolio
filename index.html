@@ -10,7 +10,7 @@
 
 </head>
 <body>
-    <nav class=" navbar navbar-expand-lg bg-dark p-3 navbar-dark">
+    <nav class=" navbar navbar-expand-lg bg-dark p-3 navbar-dark fixed-top">
         <div class="container">
             <a href="#" class="navbar-brand">My Portfolio</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-menu"><span class="navbar-toggler-icon"></span></button>
@@ -48,10 +48,10 @@
             </p>
         </div>
     </section>
-
-    <section class="bg-secondary p-4 text-dark">
+<!-- cards -->
+    <section class="bg-secondary p-4 text-dark" id="services">
         <div class="container">
-            <div class="row  g-4 text-center">
+            <div class="row   g-4 text-center">
                 <div class="col-md">
                     <div class="card bg-dark text-light">
                         <div class="card-body text-center">
@@ -62,7 +62,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
                 <div class="col-md">
                     <div class="card bg-dark text-light">
                         <div class="card-body text-center">
@@ -86,6 +85,73 @@
             </div>
         </div>
     </section>
+
+    <section class="bg-dark p-3 text-light" id="testimonials">
+    <div class="container">
+           <h1 class="text-center">Testimonials</h1>
+           <p class="lead mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis laborum, provident eligendi, inventore molestias maiores necessitatibus atque dolor assumenda error saepe ratione quam corrupti quisquam minus quaerat dolores, soluta optio.</p>
+
+        <div class="row g-4 text-center">
+            <div class="col-md-6 col-lg-3 mb-1">
+                <img src="https://randomuser.me/api/portraits/men/10.jpg" class="rounded-circle mb-3" alt="user">
+                <h3 class="card-title">Mr Brown Emarison</h3>
+                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus, ea. Magnam consequatur, corrupti qui ipsam impedit modi veritatis exercitationem tenetur, tempore cupiditate iure perferendis quos assumenda mollitia porro non perspiciatis!</p>
+                <a href="#"><i class="bi bi-twitter text-light mx-1"></i></a>
+                <a href="#"><i class="bi bi-facebook text-light mx-1"></i></a>
+                <a href="#"><i class="bi bi-linkedin text-light mx-1"></i></a>
+                <a href="#"><i class="bi bi-instagram text-light mx-1"></i></a>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <img src="https://randomuser.me/api/portraits/women/13.jpg" class="rounded-circle mb-3" alt="user">
+                <h3 class="card-title">Mrs Kimtai Evelyne</h3>
+                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus, ea. Magnam consequatur, corrupti qui ipsam impedit modi veritatis exercitationem tenetur, tempore cupiditate iure perferendis quos assumenda mollitia porro non perspiciatis!</p>
+                <a href="#"><i class="bi bi-twitter text-light mx-1"></i></a>
+                <a href="#"><i class="bi bi-facebook text-light mx-1"></i></a>
+                <a href="#"><i class="bi bi-linkedin text-light mx-1"></i></a>
+                <a href="#"><i class="bi bi-instagram text-light mx-1"></i></a>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <img src="https://randomuser.me/api/portraits/women/10.jpg" class="rounded-circle mb-3" alt="user">
+                <h3 class="card-title">Mrs Marina Jane</h3>
+                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus, ea. Magnam consequatur, corrupti qui ipsam impedit modi veritatis exercitationem tenetur, tempore cupiditate iure perferendis quos assumenda mollitia porro non perspiciatis!</p>
+                <a href="#"><i class="bi bi-twitter text-light mx-1"></i></a>
+                <a href="#"><i class="bi bi-facebook text-light mx-1"></i></a>
+                <a href="#"><i class="bi bi-linkedin text-light mx-1"></i></a>
+                <a href="#"><i class="bi bi-instagram text-light mx-1"></i></a>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <img src="https://randomuser.me/api/portraits/men/16.jpg" class="rounded-circle mb-3" alt="user">
+                <h3 class="card-title">Mr williams Damiels</h3>
+                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus, ea. Magnam consequatur, corrupti qui ipsam impedit modi veritatis exercitationem tenetur, tempore cupiditate iure perferendis quos assumenda mollitia porro non perspiciatis!</p>
+                <a href="#"><i class="bi bi-twitter text-light mx-1"></i></a>
+                <a href="#"><i class="bi bi-facebook text-light mx-1"></i></a>
+                <a href="#"><i class="bi bi-linkedin text-light mx-1"></i></a>
+                <a href="#"><i class="bi bi-instagram text-light mx-1"></i></a>
+            </div>
+         </div>
+        </div>
+    </section>
+
+    <section class="bg-primary text-light p-5">
+        <div class="container">
+            <div class="d-md-flex justify-content-between align-items-center">
+                <h3 class="mb-3 mb-md">Sign Up for My Newsletter</h3>
+                <div class="input-group w-50">
+                    <input type="text" class="form-control" placeholder="youremail@gmail.com">
+                    <button class="btn btn-outline-dark bg-dark text-light" type="button">Button</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="p-5 bg-dark text-white text-center position-relative">
+        <div class="container">
+            <p class="lead">
+                &copy;2023
+            </p>
+            <a href="#" class="position-absolute bottom-0 end-0 p-5"> <i class="bi bi-arrow-up-circle h1"></i></a>
+        </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 </html>
